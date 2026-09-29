@@ -1,11 +1,7 @@
 import React from 'react';
 import { INTERNAL_INITIATIVES } from '../data/portfolioData';
 
-interface InternalInitiativesProps {
-  onCopyNotice: (msg: string) => void;
-}
-
-export const InternalInitiatives: React.FC<InternalInitiativesProps> = ({ onCopyNotice }) => {
+export const InternalInitiatives: React.FC = () => {
   return (
     <section id="internal-initiatives-section" className="mb-8">
       {/* Section Header */}

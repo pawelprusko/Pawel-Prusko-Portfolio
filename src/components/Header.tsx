@@ -1,14 +1,7 @@
 import React from 'react';
 import { PERSONAL_INFO } from '../data/portfolioData';
 
-interface HeaderProps {
-  onCopyNotice: (msg: string) => void;
-}
-
-export const Header: React.FC<HeaderProps> = ({ onCopyNotice }) => {
-  const handleCopyEmail = (e: React.MouseEvent) => {
-    // allow mailto on click, or copy if needed
-  };
+export const Header: React.FC = () => {
 
   return (
     <header id="portfolio-header" className="mb-6">

@@ -1,11 +1,7 @@
 import React from 'react';
 import { EDUCATIONAL_PROGRAMS } from '../data/portfolioData';
 
-interface EducationalProgramsProps {
-  onCopyNotice: (msg: string) => void;
-}
-
-export const EducationalPrograms: React.FC<EducationalProgramsProps> = ({ onCopyNotice }) => {
+export const EducationalPrograms: React.FC = () => {
   return (
     <section id="educational-programs-section" className="mb-8">
       {/* Section Header */}
