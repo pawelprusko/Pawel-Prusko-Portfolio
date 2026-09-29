@@ -82,11 +82,8 @@ export const INTERNAL_INITIATIVES: InitiativeItem[] = [
           'Establishing color palettes dedicated strictly to the data visualization, consistent with the Roche Brand look & feel.',
       },
     ],
-    note: {
-      prefix: "Can't provide the links but all materials should be available directly from the Roche internal resources (",
-      links: ['RDS portal', 'Roche Brand platform', 'Tableau application'],
-      suffix: ')',
-    },
+    noteText:
+      "Can't provide the links but all materials should be available directly from the Roche internal resources (RDS portal, Roche Brand platform, Tableau application)",
   },
 ];
 

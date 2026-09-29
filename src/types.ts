@@ -16,11 +16,7 @@ export interface InitiativeItem {
   }[];
   linkText?: string;
   linkUrl?: string;
-  note?: {
-    prefix: string;
-    links: string[];
-    suffix?: string;
-  };
+  noteText?: string;
 }
 
 export interface ProgramItem {

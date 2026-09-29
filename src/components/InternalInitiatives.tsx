@@ -51,23 +51,14 @@ export const InternalInitiatives: React.FC<InternalInitiativesProps> = ({ onCopy
               </div>
             )}
 
-            {/* Roche note with underlined resources if present */}
-            {item.note && (
-              <div
+            {/* Plain note without underlines */}
+            {item.noteText && (
+              <p
                 id={`initiative-note-${item.id}`}
                 className="mt-1 text-[13px] sm:text-[13.5px] text-[#333333] leading-[1.6]"
               >
-                <span>{item.note.prefix}</span>
-                {item.note.links.map((resource, rIdx) => (
-                  <React.Fragment key={rIdx}>
-                    <span className="underline underline-offset-2 cursor-pointer hover:text-black">
-                      {resource}
-                    </span>
-                    {rIdx < item.note!.links.length - 1 && <span>, </span>}
-                  </React.Fragment>
-                ))}
-                <span>{item.note.suffix}</span>
-              </div>
+                {item.noteText}
+              </p>
             )}
           </div>
         ))}
