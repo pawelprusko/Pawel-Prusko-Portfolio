@@ -18,28 +18,28 @@ export const COMMERCIAL_PROJECTS: PortfolioProject[] = [
     name: 'Lyondell',
     subtitle: 'Real-Time Monitoring Dashboards for Heavy Industry',
     linkText: 'Link to presentation deck',
-    actionType: 'deck',
+    linkUrl: 'https://drive.google.com/file/d/1UXUfP5OrcCDV7kBNtjGTz9HdABhoxtfX/view?usp=sharing',
   },
   {
     id: 'newag',
     name: 'Newag',
     subtitle: 'Inventory Dashboards for Manufacturing',
     linkText: 'Link to presentation deck',
-    actionType: 'deck',
+    linkUrl: 'https://drive.google.com/file/d/1PaTUxt4HGPGnLaTWg-N2h5wM45LTto6S/view?usp=sharing',
   },
   {
     id: 'finops',
     name: 'Finops Cloud Intelligence',
     subtitle: 'Financial Dashboards for Cloud Ecosystems',
     linkText: 'Link to presentation deck',
-    actionType: 'deck',
+    linkUrl: 'https://drive.google.com/file/d/1SQpZMhshXDdSwAnOsq979A8VadZKavoL/view?usp=sharing',
   },
   {
     id: 'aws-cudos',
     name: 'AWS CUDOS',
     subtitle: 'Cloud Billing Analytics for Executive Strategy',
     linkText: 'Link to presentation deck',
-    actionType: 'deck',
+    linkUrl: 'https://drive.google.com/file/d/14B2Jqb4epv-GSTmjocLK7lsiMvwmhwTm/view?usp=sharing',
   },
 ];
 
@@ -60,7 +60,7 @@ export const INTERNAL_INITIATIVES: InitiativeItem[] = [
       },
     ],
     linkText: 'Link to the Platform Materials',
-    linkUrl: 'mailto:pruskopawel@gmail.com?subject=STX%20Next%20Platform%20Materials%20Request',
+    linkUrl: 'https://drive.google.com/drive/folders/17vklSSRUc3n7D74YRIushkUpZkCcwqPT',
   },
   {
     id: 'roche',
@@ -95,7 +95,6 @@ export const EDUCATIONAL_PROGRAMS: ProgramItem[] = [
       'I regularly share expert insights on Data Experience Design and analytical interface architecture. My content educates technical and product specialists on how to build high-utility, cognitively optimized data products, seamlessly blending modern UX principles with the data.',
     linkText: 'Link to the Profile',
     linkUrl: 'https://www.linkedin.com/in/pawelprusko/',
-    actionType: 'external',
   },
   {
     id: 'data-alchemist',
@@ -103,8 +102,7 @@ export const EDUCATIONAL_PROGRAMS: ProgramItem[] = [
     description:
       'On my blog, Data Alchemist, I share deep explorations into Data Experience Design, cognitive psychology, and analytical architecture. Through dedicated sections like the Data Alchemist Journal, Data Architecture Scrolls, and Data Psychology Notes, the blog provides technical and architectural reflections focused on eliminating cognitive noise, protecting human focus, and building high-resonance, human-centered data products.',
     linkText: 'Link to the Blog',
-    linkUrl: 'https://www.linkedin.com/in/pawelprusko/',
-    actionType: 'external',
+    linkUrl: 'https://data-experience-alchemist.vercel.app/',
   },
   {
     id: 'dataviz-ai',
@@ -112,8 +110,7 @@ export const EDUCATIONAL_PROGRAMS: ProgramItem[] = [
     description:
       'Your personal Data Experience Design Assistant, unifying five specialized roles into one seamless strategic interface. Engineered to accelerate the development of data-oriented products through rapid research, general audits, and end-to-end collaborative workflows. From deep-dive data analysis and compelling storytelling to high-fidelity visualization design and interactive rapid prototypes, it guides you through every phase, validating final solutions like dashboards to ensure seamless end-user usability, strategic clarity, and actionable impact.',
     linkText: 'Link to the AI Agent',
-    linkUrl: 'mailto:pruskopawel@gmail.com?subject=Dataviz%20AI%20Advocate%20Access%20Request',
-    actionType: 'email',
+    linkUrl: 'https://gemini.google.com/gem/119JTkxqxzabIlPoU4P1qYMD7C06rzm-h?usp=sharing',
   },
 ];
 

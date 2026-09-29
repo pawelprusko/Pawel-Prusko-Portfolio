@@ -38,12 +38,14 @@ export const InternalInitiatives: React.FC<InternalInitiativesProps> = ({ onCopy
               ))}
             </div>
 
-            {/* Link if present */}
+            {/* Link if present - opens in new tab */}
             {item.linkText && item.linkUrl && (
               <div className="mt-1">
                 <a
                   id={`initiative-link-${item.id}`}
                   href={item.linkUrl}
+                  target="_blank"
+                  rel="noopener noreferrer"
                   className="inline-block text-[13px] sm:text-[13.5px] text-[#333333] underline underline-offset-2 hover:text-[#000000] transition-colors"
                 >
                   {item.linkText}

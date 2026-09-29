@@ -3,8 +3,7 @@ export interface PortfolioProject {
   name: string;
   subtitle: string;
   linkText: string;
-  linkUrl?: string;
-  actionType: 'deck' | 'link' | 'email';
+  linkUrl: string;
 }
 
 export interface InitiativeItem {
@@ -25,5 +24,4 @@ export interface ProgramItem {
   description: string;
   linkText: string;
   linkUrl: string;
-  actionType: 'external' | 'modal' | 'email';
 }

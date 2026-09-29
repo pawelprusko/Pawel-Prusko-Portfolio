@@ -31,13 +31,13 @@ export const EducationalPrograms: React.FC<EducationalProgramsProps> = ({ onCopy
               <p className="text-[#333333] font-normal">{program.description}</p>
             </div>
 
-            {/* Link */}
+            {/* Link - opens in a new tab */}
             <div>
               <a
                 id={`program-link-${program.id}`}
                 href={program.linkUrl}
-                target={program.actionType === 'external' ? '_blank' : undefined}
-                rel={program.actionType === 'external' ? 'noopener noreferrer' : undefined}
+                target="_blank"
+                rel="noopener noreferrer"
                 className="inline-block text-[13px] sm:text-[13.5px] text-[#333333] underline underline-offset-2 hover:text-[#000000] transition-colors"
               >
                 {program.linkText}

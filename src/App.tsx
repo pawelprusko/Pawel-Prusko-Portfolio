@@ -5,12 +5,9 @@ import { CommercialProjects } from './components/CommercialProjects';
 import { InternalInitiatives } from './components/InternalInitiatives';
 import { EducationalPrograms } from './components/EducationalPrograms';
 import { FooterClause } from './components/FooterClause';
-import { DeckModal } from './components/DeckModal';
 import { Toast } from './components/Toast';
-import { PortfolioProject } from './types';
 
 export default function App() {
-  const [selectedProject, setSelectedProject] = useState<PortfolioProject | null>(null);
   const [toastMessage, setToastMessage] = useState<string | null>(null);
 
   const showToast = (message: string) => {
@@ -35,7 +32,7 @@ export default function App() {
           <Header onCopyNotice={showToast} />
 
           {/* Section 1: Commercial Data Experience Projects */}
-          <CommercialProjects onSelectProject={setSelectedProject} />
+          <CommercialProjects />
 
           {/* Section 2: Organizations Internal Data Experience Initiatives */}
           <InternalInitiatives onCopyNotice={showToast} />
@@ -47,13 +44,6 @@ export default function App() {
           <FooterClause />
         </article>
       </main>
-
-      {/* Presentation Deck Modal */}
-      <DeckModal
-        project={selectedProject}
-        onClose={() => setSelectedProject(null)}
-        onCopyNotice={showToast}
-      />
 
       {/* Toast Notification */}
       <Toast message={toastMessage} onClose={() => setToastMessage(null)} />

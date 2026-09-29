@@ -1,12 +1,7 @@
 import React from 'react';
 import { COMMERCIAL_PROJECTS } from '../data/portfolioData';
-import { PortfolioProject } from '../types';
 
-interface CommercialProjectsProps {
-  onSelectProject: (project: PortfolioProject) => void;
-}
-
-export const CommercialProjects: React.FC<CommercialProjectsProps> = ({ onSelectProject }) => {
+export const CommercialProjects: React.FC = () => {
   return (
     <section id="commercial-projects-section" className="mb-8">
       {/* Section Header */}
@@ -31,16 +26,17 @@ export const CommercialProjects: React.FC<CommercialProjectsProps> = ({ onSelect
               {project.subtitle}
             </p>
 
-            {/* Link */}
+            {/* Link - opens in a new tab */}
             <div>
-              <button
-                type="button"
+              <a
                 id={`project-link-${project.id}`}
-                onClick={() => onSelectProject(project)}
+                href={project.linkUrl}
+                target="_blank"
+                rel="noopener noreferrer"
                 className="inline-block text-[13px] sm:text-[13.5px] text-[#333333] underline underline-offset-2 hover:text-[#000000] transition-colors cursor-pointer text-left"
               >
                 {project.linkText}
-              </button>
+              </a>
             </div>
           </div>
         ))}
