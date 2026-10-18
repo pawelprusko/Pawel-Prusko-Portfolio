@@ -89,14 +89,6 @@ export const INTERNAL_INITIATIVES: InitiativeItem[] = [
 
 export const EDUCATIONAL_PROGRAMS: ProgramItem[] = [
   {
-    id: 'linkedin',
-    title: 'LinkedIn Platform',
-    description:
-      'I regularly share expert insights on Data Experience Design and analytical interface architecture. My content educates technical and product specialists on how to build high-utility, cognitively optimized data products, seamlessly blending modern UX principles with the data.',
-    linkText: 'Link to the Profile',
-    linkUrl: 'https://www.linkedin.com/in/pawelprusko/',
-  },
-  {
     id: 'data-alchemist',
     title: 'Data Alchemist Blog',
     description:

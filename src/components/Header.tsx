@@ -35,10 +35,6 @@ export const Header: React.FC = () => {
         </span>
         <span className="text-neutral-400 select-none">|</span>
         <span>
-          LinkedIn: <a href={PERSONAL_INFO.linkedInUrl} target="_blank" rel="noopener noreferrer" className="hover:underline text-[#222222] font-normal">{PERSONAL_INFO.linkedInUrl}</a>
-        </span>
-        <span className="text-neutral-400 select-none">|</span>
-        <span>
           Localization: <span className="text-[#222222] font-normal">{PERSONAL_INFO.localization}</span>
         </span>
       </div>
