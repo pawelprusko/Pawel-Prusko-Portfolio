@@ -63,27 +63,26 @@ export const INTERNAL_INITIATIVES: InitiativeItem[] = [
     linkUrl: 'https://drive.google.com/drive/folders/17vklSSRUc3n7D74YRIushkUpZkCcwqPT',
   },
   {
-    id: 'roche',
-    organization: 'Roche',
+    id: 'astek',
+    organization: 'Astek (Pharma & Biotechnology)',
     bullets: [
       {
-        title: 'R Design System',
+        title: 'Design System',
         description:
           'creating deeply customized educational materials and design (Figma) libraries fully devoted to the data visualization.',
       },
       {
         title: 'Tableau',
         description:
-          'in collaboration with Roche Tableau product owner establishing official Tableau dashboard template and the set of chart-oriented color palettes available directly from the Roche Tableau platform for BI developers.',
+          'in collaboration with Tableau product owner establishing official Tableau dashboard template and the set of chart-oriented color palettes available directly from the Tableau platform for BI developers.',
       },
       {
-        title: 'Roche Brand',
+        title: 'Brand Team',
         description:
-          'Establishing color palettes dedicated strictly to the data visualization, consistent with the Roche Brand look & feel.',
+          'Establishing color palettes dedicated strictly to the data visualization, consistent with the Brand look & feel.',
       },
     ],
-    noteText:
-      "Can't provide the links but all materials should be available directly from the Roche internal resources (RDS portal, Roche Brand platform, Tableau application)",
+    noteText: "Can't provide the links due to confidentiality.",
   },
 ];
 
